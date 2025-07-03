@@ -1,6 +1,6 @@
 async function launchInstance() {
   try {
-    const response = await fetch('http://localhost/surfr', {
+    const response = await fetch('http://localhost:8080/surfr', {
       method: 'POST'
     });
 
